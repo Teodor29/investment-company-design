@@ -1,0 +1,49 @@
+// colors
+$color-black: #0000;
+$color-dark: #171717;
+$color-dark2: #212121;
+$color-dark3: #313131;
+$color-dark4: #414141;
+$color-dark5: #515151;
+$color-light: #eee;
+$color-light2: #ddd;
+$color-light3: #ccc;
+$color-light4: #bbb;
+$color-light5: #aaa;
+$color-white: #fff;
+$color-blue: #597fab;
+$color-blue2: #59728f;
+$color-blue-dark: #080f17;
+$color-blue-dark2: #0d1d2e;
+$color-blue-dark3: #102031;
+$color-accent: #ec5826;
+
+// fonts
+$font-primary: 'Lato', sans-serif;
+$font-secondary: 'Inter', sans-serif;
+
+// text
+$text-primary: $color-light;
+$text-secondary: $color-light2;
+$text-header: $color-blue;
+$text-link: $color-blue;
+$text-dark: $color-dark3;
+$text-light: $color-light;
+
+// background
+$background: $color-blue-dark;
+$background2: $color-blue-dark2;
+$background3: $color-blue-dark3;
+$background-overlay: rgba($color-blue-dark, 0.7);
+// button
+$button-color: $color-blue;
+$button-hover-color: $color-blue2;
+$button-outline-color: $color-dark5;
+
+// table
+$table-outline: $color-light5;
+$table-background: $color-light3;
+
+// icons
+$icon-color: $color-dark5;
+$icon-hover-color: $color-dark;

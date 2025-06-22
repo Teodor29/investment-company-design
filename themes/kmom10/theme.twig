@@ -1,0 +1,35 @@
+{% include 'incl/header.twig' %}
+
+<body>
+
+    <div class="main" role="main">
+        {% include 'incl/nav.twig' %}
+        <div class="home about" style="background-image: url('{{ meta.header_image }}')">
+            <div class="text-container">
+                <h1>{{ meta.title }}</h1>
+            </div>
+        </div>
+        <div class="main-content">
+    <div class="article">
+        <h1>Tema 1</h1>
+        <h2>Färgpalett</h2>
+        <p>Webbplatsens färgpalett är minimalistisk och stilren för att återspegla Lien Global Capitals professionella varumärke. Basen består av en väldigt mörk blå (nästan svart) som bakgrund och vit text, vilket ger en tydlig kontrast och gör det lätt att läsa. Utöver det har jag 4 nyanser av blått och en orange som komplementfärg. Jag valde blå eftersom det symboliserar förtroende och är en vanlig färg inom finansbranschen.</p>
+        <table class="color-palette">
+            <tr>
+            <td style="height: 50px; width: 50px; background-color: #080f17">
+            <td style="height: 50px; width: 50px; background-color: #0D1D2E">
+            <td style="height: 50px; width: 50px; background-color: #102031">
+            <td style="height: 50px; width: 50px; background-color: #59728f">
+            <td style="height: 50px; width: 50px; background-color: #597fab">
+            <td style="height: 50px; width: 50px; background-color: #ec5826">
+            </tr>
+        </table>
+        {{ content }}
+    </div>
+</div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

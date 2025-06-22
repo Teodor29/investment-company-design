@@ -1,0 +1,102 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+    <div class="home about" style="background-image: url('image/bull.jpg?w=1920&crop-to-fit'">
+        <div class="text-container">
+            <h1>Investments</h1>
+        </div>
+    </div>
+    <div class="main" role="main">
+        <div class="article">
+            {{ content }}
+        </div>
+        <div class="main-content gallery-page">
+    <div class="gallery-item">
+        <a href="investments/nvidia">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/nvidia.jpg?width=250&height=200&crop-to-fit&q=50">
+                <img src="image/nvidia.jpg?width=400&height=400&crop-to-fit&q=80" alt="Nvidia img">
+            </picture>
+            <h2 class="text-overlay">Nvidia</h2>
+        </a>
+    </div>
+    <div class="gallery-item">
+        <a href="investments/apple">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/apple.jpg?width=250&height=200&crop-to-fit&q=50">
+                <img src="image/apple.jpg?width=400&height=400&crop-to-fit&q=80" alt="Apple img">
+            </picture>
+            <h2 class="text-overlay">Apple</h2>
+        </a>
+    </div>
+    <div class="gallery-item">
+        <a href="investments/microsoft">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/microsoft.jpg?width=250&height=200&crop-to-fit&q=50">
+                <img src="image/microsoft.jpg?width=400&height=400&crop-to-fit&q=80" alt="Microsoft img">
+            </picture>
+            <h2 class="text-overlay">Microsoft</h2>
+        </a>
+    </div>
+    <div class="gallery-item">
+        <a href="investments/amazon">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/amazon.jpg?width=250&height=200&crop-to-fit&q=50">
+                <img src="image/amazon.jpg?width=400&height=400&crop-to-fit&q=80" alt="Amazon img">
+            </picture>
+            <h2 class="text-overlay">Amazon</h2>
+        </a>
+    </div>
+    <div class="gallery-item">
+        <a href="investments/bitcoin">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/bitcoin.jpg?width=250&height=200&crop-to-fit&q=50">
+                <img src="image/bitcoin.jpg?width=400&height=400&crop-to-fit&q=80" alt="Bitcoin img">
+            </picture>
+            <h2 class="text-overlay">Bitcoin</h2>
+        </a>
+    </div>
+    <div class="gallery-item">
+        <a href="investments/meta">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/meta.jpg?width=250&height=200&crop-to-fit&q=50">
+                <img src="image/meta.jpg?width=400&height=400&crop-to-fit&q=80" alt="Meta img">
+            </picture>
+            <h2 class="text-overlay">Meta</h2>
+        </a>
+    </div>
+    <div class="gallery-item">
+        <a href="investments/tesla">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/tesla.jpg?width=250&height=200&crop-to-fit&q=50">
+                <img src="image/tesla.jpg?width=400&height=400&crop-to-fit&q=80" alt="Tesla img">
+            </picture>
+            <h2 class="text-overlay">Tesla</h2>
+        </a>
+    </div>
+    <div class="gallery-item">
+        <a href="investments/gold">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/gold.jpg?width=250&height=200&crop-to-fit&q=50">
+                <img src="image/gold.jpg?width=400&height=400&crop-to-fit&q=80" alt="Gold img">
+            </picture>
+            <h2 class="text-overlay">Gold</h2>
+        </a>
+    </div>
+    <div class="gallery-item">
+        <a href="investments/saab">
+            <picture>
+                <source media="(min-width: 500px)" srcset="image/saab.jpg?width=250&height=200&crop-to-fit&q=50">
+                <img src="image/saab.jpg?width=400&height=400&crop-to-fit&q=80" alt="Saab img">
+            </picture>
+            <h2 class="text-overlay">Saab</h2>
+        </a>
+    </div>
+</div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

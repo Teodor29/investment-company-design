@@ -1,0 +1,25 @@
+{% include 'incl/header.twig' %}
+
+<body>
+
+    <div class="main" role="main">
+        {% include 'incl/nav.twig' %}
+        <div class="home about" style="background-image: url('{{ meta.header_image }}')">
+            <div class="text-container">
+                <h1>{{ meta.title }}</h1>
+            </div>
+        </div>
+        <div class="main-content">
+    <div class="article">
+        <a href="theme">
+            <button>Temat</button>
+        </a>
+        {{ content }}
+    </div>
+</div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

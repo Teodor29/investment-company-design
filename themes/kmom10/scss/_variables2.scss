@@ -1,0 +1,50 @@
+// colors
+$color-black: #0000;
+$color-dark: #171717;
+$color-dark2: #212121;
+$color-dark3: #313131;
+$color-dark4: #414141;
+$color-dark5: #515151;
+$color-dark-inactive: #989898;
+$color-light: #eee;
+$color-light2: #ddd;
+$color-light3: #ccc;
+$color-light4: #bbb;
+$color-light5: #aaa;
+$color-white: #fff;
+$color-blue: #597fab;
+$color-blue2: #59728f;
+$color-blue3: #4f6a7b;
+$color-blue-dark: #080f17;
+$color-blue-light: #ebeff4;
+$color-accent: #597fab;
+
+// fonts
+$font-primary: 'Times New Roman', serif;
+
+// text
+$text-primary: $color-dark;
+$text-secondary: $color-dark2;
+$text-header: $color-blue;
+$text-link: $color-blue2;
+$text-dark: $color-dark3;
+$text-light: $color-white;
+
+// background
+$background: $color-white;
+$background2: $color-blue-light;
+$background3: $color-light2;
+$background-overlay: rgba($color-blue-dark, 0.7);
+$background-overlay-footer: $color-blue-light;
+
+// button
+$button-color: $color-blue;
+$button-hover-color: $color-blue2;
+
+// table
+$table-outline: $color-light5;
+$table-background: $color-light3;
+
+// icons
+$icon-color: $color-dark5;
+$icon-hover-color: $color-dark;
